@@ -19,11 +19,14 @@ Please make sure to customize it according to the desired need.
 
 How It Works
 Download station and channel metadata (.txt files) covering your desired study duration.
-(https://service.iris.edu/fdsnws/station/docs/1/builder/) * Change Level to choose channels/stations
+(https://service.iris.edu/fdsnws/station/docs/1/builder/) * Change Level to choose channels/stations.
 Run the MATLAB scripts to filter stations based on key parameters:
-Same sensors
-Same channel types
-Consistent location codes
-Longest available durations
+Same sensors.
+Same channel types.
+Consistent location codes.
+Longest available durations.
 Obtain a refined dataset with optimal station selections, reducing preprocessing errors and improving RF analysis accuracy.
+
 Each script in the repository is accompanied by a description file (.txt) explaining its function and expected output.
+
+Use Example Station.txt and Channel.txt to run the script and also to familiarize yourself with the input data format.
