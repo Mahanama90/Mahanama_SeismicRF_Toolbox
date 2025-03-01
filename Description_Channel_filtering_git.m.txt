@@ -1,0 +1,30 @@
+Brief Description:Channel_filtering_git.m
+This MATLAB script processes and analyzes channel metadata from a Channel.txt file, which contains details such as network, station, location, channel, elevation, and sampling rate. 
+
+To create your own Channel.txt visit https://service.iris.edu/fdsnws/station/docs/1/builder/ and choose Channel under Level category and download a .txt file using the URL "Click the Link" option
+
+The script performs the following tasks:
+
+Reads and Parses the Channel Data
+
+Extracts relevant parameters including station and network information, geographic coordinates, and sensor metadata.
+Computes Channel Durations
+
+Converts station start and end times to a datetime format, and computes the operational duration of each station in years.
+
+Categorizes stations based on their operational time (e.g., less than 1 year, more than 5 years, etc.).
+Filters and Organizes Data by Sampling Rate
+
+Extracts unique sampling rates and counts the number of channels for each rate.
+Separates 40 Hz and 100 Hz sampling rate channels into distinct output files.
+
+Summarizes Channel and Station Statistics
+
+Outputs the number of channels and unique stations for each duration category.
+Displays a formatted table of sampling rates and their distribution across duration categories.
+
+How to Use:
+Ensure Channel.txt is available in the same directory as the script.
+Run the script in MATLAB to generate filtered channel metadata and duration statistics.
+
+The script outputs tables in the MATLAB console and saves filtered datasets for specific sampling rates.

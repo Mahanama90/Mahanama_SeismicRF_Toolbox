@@ -1,0 +1,37 @@
+
+Brief Description:Station_duration_and_plot_git.m
+This MATLAB script processes broadband seismic station metadata from a Station.txt file. It calculates the duration of station operation, filters stations based on their operational time, and generates geospatial visualizations of station locations.
+
+Key Features:
+Extracts and Processes Station Data:
+
+Reads network, station, latitude, longitude, elevation, and time duration from Station.txt.
+Handles missing end times by assigning a future end date (2599-12-31) for active stations.
+Computes the operational duration of each station in years.
+Filters and Categorizes Data:
+
+Saves an updated station metadata file that includes computed durations.
+Separates stations that have been operational for more than 5 years and saves them in a separate file.
+Saves Processed Data:
+
+Writes station metadata into text files (.txt).
+Outputs separate files for:
+All stations with computed durations
+Stations operational for more than 5 years
+Geospatial Visualization of Stations:
+
+Generates two maps using the Lambert projection:
+Figure 1: All broadband stations plotted with US state boundaries.
+Figure 2: Stations operating for more than 5 years highlighted separately.
+Includes station counts in the plots for better interpretation.
+
+How to Use:
+Ensure Station.txt is available in the same directory as the script.
+Run the script in MATLAB.
+
+The script will generate:
+Processed station metadata files.
+Maps visualizing broadband station locations.
+A separate list of long-operating (>5 years) stations.
+This script is useful for seismic network station metadata filtering, duration analysis, and geospatial visualization of receiver function stations.
+

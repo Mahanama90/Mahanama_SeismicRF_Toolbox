@@ -1,0 +1,38 @@
+
+Brief Description:Channel_station_filtering_git.m
+This MATLAB script processes receiver function (RF) channel metadata from a Channel.txt file. It performs several key tasks to analyze and organize broadband seismic station data based on their operational duration and sampling rates.
+
+Key Features:
+Extracts and Processes Station Data:
+
+Reads network, station, location, channel, latitude, longitude, sampling rate, and time duration from the Channel.txt file.
+Computes the operational duration of each station in years.
+Filters and Categorizes Data:
+
+Adds a duration column to the station dataset.
+Filters stations that have been operational for 5 or more years.
+Further separates these stations based on 40 Hz and 100 Hz sampling rates.
+Saves Processed Data:
+
+Writes datasets into text files (.txt) and tabular files (.csv).
+Filters and outputs distinct station and channel lists based on duration and sampling rates.
+Geospatial Visualization of Stations:
+
+Generates two maps displaying station availability for 40 Hz and 100 Hz channels using Lambert projection.
+Plots station locations with labels and state boundaries.
+Formats and Saves Data in a Readable Structure:
+
+Groups data by station ID and retains unique locations and channels.
+Converts date-time values and station coordinates into a structured table.
+Outputs tables as both CSV and TXT files for further analysis.
+
+How to Use:
+Ensure Channel.txt is available in the same directory as the script.
+
+Run the script in MATLAB.
+The script will generate:
+Filtered station lists for different time and sampling rate conditions.
+Formatted tables with station metadata and durations.
+Maps visualizing broadband station locations.
+This script is useful for receiver function analysis, seismic station/channel metadata filtering, and broadband seismic station/network visualization.
+
