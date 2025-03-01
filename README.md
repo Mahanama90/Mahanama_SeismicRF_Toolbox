@@ -1,7 +1,7 @@
 Mahanama SeismicRF Toolbox
 🔹 Automated MATLAB Scripts for Streamlined Receiver Function (RF) Data Selection
 
-![Seismic Data Analysis](Result_Figures_png)
+![Seismic Data Analysis](Result_Figures.png)
 
 
 Overview:
