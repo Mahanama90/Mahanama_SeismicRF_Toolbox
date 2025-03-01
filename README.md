@@ -1,6 +1,9 @@
 Mahanama SeismicRF Toolbox
 🔹 Automated MATLAB Scripts for Streamlined Receiver Function (RF) Data Selection
 
+![Seismic Data Analysis](images/your-image.png)
+
+
 Overview:
 This repository provides a set of MATLAB scripts designed to automate the data selection process for Receiver Function (RF) analysis. The scripts enable researchers to efficiently filter and organize station metadata, ensuring consistency in sensor types, channels, and data durations before initiating an RF study.
 
