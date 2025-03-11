@@ -1,5 +1,5 @@
 Mahanama SeismicRF Toolbox
-🔹 Automated MATLAB Scripts for Streamlined Receiver Function (RF) Data Selection
+Automated MATLAB Scripts for Streamlined Receiver Function (RF) Data Selection
 
 ![Seismic Data Analysis](Result_Figures.png)
 
@@ -11,13 +11,13 @@ One of the critical steps in RF analysis is selecting seismic stations with long
 
 Why Use This Toolbox?
 
-🔹 Efficient Data Filtering – Quickly process large station metadata files and extract only the most relevant records.
+Efficient Data Filtering – Quickly process large station metadata files and extract only the most relevant records.
 
-🔹 Ensures Data Consistency – Selects seismic stations with uniform sensors, channels, and durations, preventing mix-ups in RF processing.
+Ensures Data Consistency – Selects seismic stations with uniform sensors, channels, and durations, preventing mix-ups in RF processing.
 
-🔹 Optimized for RF Studies – Helps in identifying clean, long-duration waveforms essential for accurate receiver function computation.
+Optimized for RF Studies – Helps in identifying clean, long-duration waveforms essential for accurate receiver function computation.
 
-🔹 User-Friendly & Automated – Simply download station and channel metadata (.txt files) for your study duration, and let the scripts filter out the best data for extraction.
+User-Friendly & Automated – Simply download station and channel metadata (.txt files) for your study duration, and let the scripts filter out the best data for extraction.
 Please make sure to customize it according to the desired need. 
 
 How It Works
